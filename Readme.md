@@ -28,7 +28,7 @@ async function createCall(source, destination) {
     const callData = getLogCallData(`Call from ${source.chainId} to ${destination.chainId}.`);
     const lzSuperCall = destination.contract.address;
     const fee = await calculateCallFee(source, destination);
-    return new Call(chainId, target, callData, lzSuperCall, fee);
+    return new LzCall(chainId, target, callData, lzSuperCall, fee);
 }
 ```
 

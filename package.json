@@ -1,10 +1,10 @@
 {
   "name": "@super-call/sdk",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Typescript SDK for SuperCall",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
-  "types": "lib/index.d.ts",
+  "types": "dist/index.d.ts",
   "files": [
     "dist"
   ],
@@ -19,9 +19,9 @@
     "url": "git+https://github.com/super-call/supercall-sdk.git"
   },
   "keywords": [
-    "Axecute"
+    "SuperCall"
   ],
-  "author": "Axecute",
+  "author": "SuperCall",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/super-call/supercall-sdk/issues"
